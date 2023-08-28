@@ -653,3 +653,173 @@ footer {
   display: flex;
   gap: 1rem;
 }
+
+
+/* Responsive CSS */
+@media screen and (max-width: 1200px) {
+  /* Adjustments for large screens */
+  .heroSection {
+    width: 90%;
+  }
+
+  .projectContainer {
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .projectCard {
+    width: 100%;
+    height: auto;
+  }
+
+  .projectContent {
+    width: 100%;
+    position: relative;
+    bottom: initial;
+    padding: 1em;
+    text-align: center;
+  }
+
+  .leftProjectContent,
+  .rightProjectContent {
+    left: initial;
+    right: initial;
+  }
+
+  .projectNumber {
+    font-size: 120px;
+  }
+
+  .btnGroup {
+    justify-content: center;
+  }
+
+  .projectSkillsContainer {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* Adjustments for medium screens */
+  .heroSection {
+    flex-direction: column-reverse;
+    gap: 3rem;
+  }
+
+  .infoContainer {
+    text-align: center;
+    width: 100%;
+  }
+
+  .imgContainer {
+    text-align: center;
+  }
+
+  .userImage {
+    padding: 0;
+    width: 200px;
+    height: 225px;
+  }
+
+  .projectContainer {
+    gap: 2rem;
+  }
+
+  .projectCard {
+    height: auto;
+  }
+
+  .projectNumber {
+    font-size: 80px;
+  }
+
+  .projectContent {
+    padding: 1rem;
+  }
+
+  .skillContainer {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+  }
+
+  .leftSkillContainer {
+    width: 100%;
+  }
+
+  .rightSkillContainer {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .skillHeading {
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .skillHeading span {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* Adjustments for small screens */
+  .heroSection {
+    padding-bottom: 4rem;
+  }
+
+  .projectCard {
+    width: 90%;
+    margin: 1rem auto;
+  }
+
+  .projectNumber {
+    font-size: 60px;
+    top: -30px;
+    right: -30px;
+  }
+
+  .projectHeading {
+    font-size: 30px;
+  }
+
+  .projectSubHeading {
+    font-size: 14px;
+  }
+
+  .skillHeading {
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  .skillHeading span {
+    font-size: 50px;
+  }
+
+  .contactMeSection {
+    padding: 2rem 0;
+  }
+
+  .container h2 {
+    font-size: 3em;
+    padding-top: 1rem;
+  }
+
+  .container h3 {
+    font-size: 2em;
+  }
+
+  .formField {
+    font-size: 16px;
+    height: 36px;
+  }
+
+  .formBtn .btn {
+    font-size: 1.2rem;
+  }
+
+  .icon {
+    font-size: 25px;
+  }
+}
